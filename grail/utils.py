@@ -1,2 +1,0 @@
-def sword():
-    return "sword"
