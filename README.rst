@@ -37,8 +37,6 @@
 
 A Python package for the the Knights of the Round Table.
 
-* LONGER DESCRIPTION HERE
-
 For more information about the montypy.grail library, please consult our `online documentation <https://kot-roundtable.github.io/montypy.grail>`_.
 
 Citation
@@ -60,10 +58,10 @@ To add "conda-forge" to the conda channels, run the following in a terminal. ::
         conda config --add channels conda-forge
 
 We want to install our packages in a suitable conda environment.
-The following creates and activates a new environment named ``montypy.grail_env`` ::
+The following creates and activates a new environment named ``montypy.grail-env`` ::
 
-        conda create -n montypy.grail_env montypy.grail
-        conda activate montypy.grail_env
+        conda create -n montypy.grail-env montypy.grail
+        conda activate montypy.grail-env
 
 To confirm that the installation was successful, type ::
 
@@ -73,7 +71,7 @@ The output should print the latest version displayed on the badges above.
 
 If the above does not work, you can use ``pip`` to download and install the latest release from
 `Python Package Index <https://pypi.python.org>`_.
-To install using ``pip`` into your ``montypy.grail_env`` environment, type ::
+To install using ``pip`` into your ``montypy.grail-env`` environment, type ::
 
         pip install montypy.grail
 
